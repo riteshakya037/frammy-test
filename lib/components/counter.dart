@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:framy_annotation/framy_annotation.dart';
 import 'package:framytest/models/counter.dart';
 
+@FramyWidget()
 class CounterWidget extends StatelessWidget {
   const CounterWidget({
     Key key,

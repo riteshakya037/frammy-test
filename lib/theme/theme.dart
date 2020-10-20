@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:framy_annotation/framy_annotation.dart';
 
+@FramyTheme()
 ThemeData buildThemeData() {
   return ThemeData(
     // This is the theme of your application.

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:framy_annotation/framy_annotation.dart';
 
+@FramyWidget()
 class CounterFAB extends StatelessWidget {
   final VoidCallback onPressed;
 
